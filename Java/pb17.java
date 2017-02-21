@@ -23,6 +23,9 @@ public class pb17 {
 		System.out.println(total);
 	}
 
+	/*
+	* method to count the amount of letters in a given integer
+	*/
 	private static int letterCount (int n){
 		int count = 0;
 		if(n < 20){
@@ -32,8 +35,6 @@ public class pb17 {
 			count += tens[(n/10)-2].length();
 			count += num_u20[n%((n/10)*10)].length();
 		}else if(n < 1000){
-			//six hundred and twenty seven 
-			//627 
 			count += num_u20[n/100].length() + hundred.length();
 			if(n%100 != 0){
 				count += and.length();
