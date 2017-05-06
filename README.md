@@ -1,1 +1,1 @@
-My solutions to project euler questions
+My solutions to programming problems
